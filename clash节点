@@ -5,291 +5,387 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_31 TG@peekfun, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_33 TG@peekfun, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 香港2, server: v1hugang4.kuli888.xyz, port: 11151, type: trojan, password: 2187303b-d0d9-3916-b455-d9da7f7bb4af, sni: v1hugang4.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN_38 TG@peekfun, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_116 TG@peekfun, server: 116.129.254.29, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: CN_44 TG@peekfun, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_46 TG@peekfun, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_47 TG@peekfun, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_102 TG@peekfun, server: 116.129.253.130, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: CN_103 TG@peekfun, server: 116.129.254.29, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: CN_92 TG@peekfun, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: CN_123 TG@peekfun, server: 120.233.186.71, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: CN_120 TG@peekfun, server: 116.129.253.130, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: AU_03 TG@peekfun, server: kr04.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr04.wangxd.life, skip-cert-verify: true, udp: true}
-  - {name: CN_507, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_71 TG@peekfun, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_69 TG@peekfun, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_84 TG@peekfun, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_127 TG@peekfun, server: 103.56.62.145, port: 3385, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: CN_70 TG@peekfun, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_91 TG@peekfun, server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: US_220 TG@peekfun, server: 20.210.229.72, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: CN_506, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_205 TG@peekfun, server: 20.210.229.72, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: CN_109 TG@peekfun, server: 116.129.254.47, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: US_190 TG@peekfun, server: kr01.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr01.wangxd.life, skip-cert-verify: true, udp: true}
-  - {name: CN_75 TG@peekfun, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: JP 18, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: US_206 TG@peekfun, server: 20.210.229.72, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: CN_80 TG@peekfun, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_78 TG@peekfun, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_79 TG@peekfun, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 新加坡, server: hk64.fans8.xyz, port: 443, type: trojan, password: 10b3df8b-2316-4b43-843a-d165ce6603aa, sni: hk64.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本1, server: changsha.kulime.space, port: 52011, type: trojan, password: 2187303b-d0d9-3916-b455-d9da7f7bb4af, sni: changsha.kulime.space, skip-cert-verify: true, udp: true}
-  - {name: US01-V2-直连, server: us01.henet.cyou, port: 20000, type: vmess, uuid: 83f5d4f1-49b2-4ace-a5ad-48df58f4da53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
-  - {name: US 142, server: 13.125.150.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: JP_163 TG@peekfun, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: DE_134 TG@peekfun, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: 美国11, server: 164.92.107.59, port: 1645, type: ss, cipher: chacha20-ietf-poly1305, password: 3f411e87-3e93-4f23-bc22-263a748bc8c5, udp: true}
-  - {name: US-137.184.246.148-11, server: dojjs.356930.xyz, port: 10021, type: vmess, uuid: 7ddb2159-b252-4563-ada2-b928ff4c3a87, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: dojjs.356930.xyz}, udp: true}
-  - {name: 台湾1, server: vip2shentai.kuli888.xyz, port: 32103, type: trojan, password: 2187303b-d0d9-3916-b455-d9da7f7bb4af, sni: vip2shentai.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN_88 TG@peekfun, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: US-164.92.69.193-01, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: DE_538, server: 212.81.47.18, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: DE_539, server: 212.81.47.14, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: CN_76 TG@peekfun, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 美国12, server: 164.92.115.89, port: 3125, type: ss, cipher: chacha20-ietf-poly1305, password: 3f411e87-3e93-4f23-bc22-263a748bc8c5, udp: true}
-  - {name: CN_82 TG@peekfun, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: DE_138 TG@peekfun, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: DE_139 TG@peekfun, server: 212.81.47.17, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: DE_137 TG@peekfun, server: 212.81.47.11, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: US_212 TG@peekfun, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国13, server: 164.92.99.255, port: 4649, type: ss, cipher: aes-256-gcm, password: 3f411e87-3e93-4f23-bc22-263a748bc8c5, udp: true}
-  - {name: CN_130 TG@peekfun, server: 103.56.60.235, port: 3385, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: CN_131 TG@peekfun, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: DE_140 TG@peekfun, server: 212.81.47.15, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: AU_02 TG@peekfun, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: DE_533, server: 212.81.47.16, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: CN_299 |23.98Mb, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_74 TG@peekfun, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_121 TG@peekfun, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: JP 137, server: 18.183.213.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: RELAY-104.21.72.236-46, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
-  - {name: US_192 TG@peekfun, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: CN_117 TG@peekfun, server: 116.129.254.47, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: CN_125 TG@peekfun, server: 103.56.62.145, port: 3385, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: US_216 TG@peekfun, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
+  - {name: AU_54 |14.94Mb, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: CN_173, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_193 |24.06Mb, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_231, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_244, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_248 | 3.36Mb, server: 103.56.60.235, port: 3381, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: CN_249 | 6.57Mb, server: 103.56.60.235, port: 3381, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: CN_25 TG@peekfun, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_251 | 6.99Mb, server: 103.56.60.235, port: 3381, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: CN_27 TG@peekfun, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_28 TG@peekfun, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_30 TG@peekfun, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_32 TG@peekfun, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_44 TG@peekfun, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_45 TG@peekfun, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_46 TG@peekfun, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_47 TG@peekfun, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_48 TG@peekfun, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_49 TG@peekfun, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_50 TG@peekfun, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_51 TG@peekfun, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_52 TG@peekfun, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_53 TG@peekfun, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_54 TG@peekfun, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_56 TG@peekfun, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_57 TG@peekfun, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_58 TG@peekfun, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_59 TG@peekfun, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_60 TG@peekfun, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_62 TG@peekfun, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_63 TG@peekfun, server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_64 TG@peekfun, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_65 TG@peekfun, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_66 TG@peekfun, server: 14.29.124.168, port: 25272, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_67 TG@peekfun, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_68 TG@peekfun, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_69 TG@peekfun, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_70 TG@peekfun, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_71 TG@peekfun, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_72 TG@peekfun, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_80 TG@peekfun, server: 120.233.186.71, port: 3381, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: CN_84 TG@peekfun, server: 103.56.62.145, port: 3381, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: CN_85 TG@peekfun, server: 103.56.62.145, port: 3381, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: CN_92 TG@peekfun, server: 103.56.62.145, port: 3381, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: CN_95 TG@peekfun, server: 120.233.186.71, port: 3381, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 4, server: 36.139.112.39, port: 21101, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /admin, ws-headers: {Host: m2.baofu.buzz}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip 8, server: 36.139.112.39, port: 21107, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /admin, ws-headers: {Host: ip.baofu.buzz}, udp: true}
+  - {name: DE_300, server: 212.81.47.13, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: DE_98 TG@peekfun, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_264, server: 120.233.186.71, port: 3381, type: trojan, password: 711aabc21e45ae31, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_265, server: 103.56.60.235, port: 3381, type: trojan, password: 711aabc21e45ae31, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_266, server: 120.233.186.71, port: 3381, type: trojan, password: ffec9f6ea19e1dd1, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_268, server: 103.56.60.235, port: 3381, type: trojan, password: ffec9f6ea19e1dd1, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_271, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2225, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus4.0bad.com}, udp: true}
+  - {name: US_172 TG@peekfun, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: US_174 TG@peekfun, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: US-104.243.30.252-52, server: 104.243.30.252, port: 246, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: koyeb, server: shishi-123-houyang12345.koyeb.app, port: 443, type: vmess, uuid: 11111111-1111-1111-1111-111111111111, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shishi-123-houyang12345.koyeb.app}, udp: true}
+  - {name: CN_84 TG@peekfun 2, server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: CN_97 TG@peekfun, server: 116.129.253.130, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: CN_89 TG@peekfun, server: 103.56.62.145, port: 3385, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: CN_100 TG@peekfun, server: 103.56.60.235, port: 3385, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: CN_107 TG@peekfun, server: 116.129.253.130, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: CN_187 |10.58Mb, server: 116.129.254.47, port: 3389, type: trojan, password: 711aabc21e45ae31, skip-cert-verify: true, udp: true}
+  - {name: CN_113 TG@peekfun, server: 103.56.60.235, port: 3385, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: CN_175 |24.03Mb, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_188 |11.06Mb, server: 116.129.254.47, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, skip-cert-verify: true, udp: true}
+  - {name: CN_182, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_177 | 7.15Mb, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_150 | 6.63Mb, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_92 TG@peekfun 2, server: 116.129.253.130, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: CN_251 |23.79Mb, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_170 |24.27Mb, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_72 TG@peekfun 2, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_283 | 9.60Mb, server: 116.129.254.47, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
+  - {name: CN_260 |23.98Mb, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_176, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_96 TG@peekfun, server: 103.56.60.235, port: 3385, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: CN_73 TG@peekfun, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_110 TG@peekfun, server: 103.56.62.145, port: 3385, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: CN_75 TG@peekfun, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_486, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_76 TG@peekfun, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_111 TG@peekfun, server: 103.56.62.145, port: 3385, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: DE_194 | 6.13Mb, server: 212.81.47.17, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: CN_183 | 6.63Mb, server: zj.haojiahuo.ml, port: 30069, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: zj.haojiahuo.ml}, udp: true}
+  - {name: DE_298 |17.74Mb, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: CN_95 TG@peekfun 2, server: 116.129.254.29, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: CN_64 TG@peekfun 2, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_108 TG@peekfun, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_31 TG@peekfun
-      - CN_33 TG@peekfun
-      - 香港2
-      - CN_38 TG@peekfun
-      - CN_116 TG@peekfun
+      - AU_54 |14.94Mb
+      - CN_173
+      - CN_193 |24.06Mb
+      - CN_231
+      - CN_244
+      - CN_248 | 3.36Mb
+      - CN_249 | 6.57Mb
+      - CN_25 TG@peekfun
+      - CN_251 | 6.99Mb
+      - CN_27 TG@peekfun
+      - CN_28 TG@peekfun
+      - CN_30 TG@peekfun
+      - CN_32 TG@peekfun
       - CN_44 TG@peekfun
+      - CN_45 TG@peekfun
       - CN_46 TG@peekfun
       - CN_47 TG@peekfun
-      - CN_102 TG@peekfun
-      - CN_103 TG@peekfun
-      - CN_92 TG@peekfun
-      - CN_123 TG@peekfun
-      - CN_120 TG@peekfun
-      - AU_03 TG@peekfun
-      - CN_507
-      - CN_71 TG@peekfun
+      - CN_48 TG@peekfun
+      - CN_49 TG@peekfun
+      - CN_50 TG@peekfun
+      - CN_51 TG@peekfun
+      - CN_52 TG@peekfun
+      - CN_53 TG@peekfun
+      - CN_54 TG@peekfun
+      - CN_56 TG@peekfun
+      - CN_57 TG@peekfun
+      - CN_58 TG@peekfun
+      - CN_59 TG@peekfun
+      - CN_60 TG@peekfun
+      - CN_62 TG@peekfun
+      - CN_63 TG@peekfun
+      - CN_64 TG@peekfun
+      - CN_65 TG@peekfun
+      - CN_66 TG@peekfun
+      - CN_67 TG@peekfun
+      - CN_68 TG@peekfun
       - CN_69 TG@peekfun
-      - CN_84 TG@peekfun
-      - CN_127 TG@peekfun
       - CN_70 TG@peekfun
-      - CN_91 TG@peekfun
-      - US_220 TG@peekfun
-      - CN_506
-      - US_205 TG@peekfun
-      - CN_109 TG@peekfun
-      - US_190 TG@peekfun
-      - CN_75 TG@peekfun
-      - JP 18
-      - US_206 TG@peekfun
+      - CN_71 TG@peekfun
+      - CN_72 TG@peekfun
       - CN_80 TG@peekfun
-      - CN_78 TG@peekfun
-      - CN_79 TG@peekfun
-      - 新加坡
-      - 日本1
-      - US01-V2-直连
-      - US 142
-      - JP_163 TG@peekfun
-      - DE_134 TG@peekfun
-      - 美国11
-      - US-137.184.246.148-11
-      - 台湾1
-      - CN_88 TG@peekfun
-      - US-164.92.69.193-01
-      - DE_538
-      - DE_539
+      - CN_84 TG@peekfun
+      - CN_85 TG@peekfun
+      - CN_92 TG@peekfun
+      - CN_95 TG@peekfun
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 8
+      - DE_300
+      - DE_98 TG@peekfun
+      - Relay_🇨🇳CN-🏁ZZ_264
+      - Relay_🇨🇳CN-🏁ZZ_265
+      - Relay_🇨🇳CN-🏁ZZ_266
+      - Relay_🇨🇳CN-🏁ZZ_268
+      - Relay_🇨🇳CN-🏁ZZ_271
+      - Relay_🇺🇸US-🇺🇸US_2225
+      - US_172 TG@peekfun
+      - US_174 TG@peekfun
+      - US-104.243.30.252-52
+      - koyeb
+      - CN_84 TG@peekfun 2
+      - CN_97 TG@peekfun
+      - CN_89 TG@peekfun
+      - CN_100 TG@peekfun
+      - CN_107 TG@peekfun
+      - CN_187 |10.58Mb
+      - CN_113 TG@peekfun
+      - CN_175 |24.03Mb
+      - CN_188 |11.06Mb
+      - CN_182
+      - CN_177 | 7.15Mb
+      - CN_150 | 6.63Mb
+      - CN_92 TG@peekfun 2
+      - CN_251 |23.79Mb
+      - CN_170 |24.27Mb
+      - CN_72 TG@peekfun 2
+      - CN_283 | 9.60Mb
+      - CN_260 |23.98Mb
+      - CN_176
+      - CN_96 TG@peekfun
+      - CN_73 TG@peekfun
+      - CN_110 TG@peekfun
+      - CN_75 TG@peekfun
+      - CN_486
       - CN_76 TG@peekfun
-      - 美国12
-      - CN_82 TG@peekfun
-      - DE_138 TG@peekfun
-      - DE_139 TG@peekfun
-      - DE_137 TG@peekfun
-      - US_212 TG@peekfun
-      - 美国13
-      - CN_130 TG@peekfun
-      - CN_131 TG@peekfun
-      - DE_140 TG@peekfun
-      - AU_02 TG@peekfun
-      - DE_533
-      - CN_299 |23.98Mb
-      - CN_74 TG@peekfun
-      - CN_121 TG@peekfun
-      - JP 137
-      - RELAY-104.21.72.236-46
-      - US_192 TG@peekfun
-      - CN_117 TG@peekfun
-      - CN_125 TG@peekfun
-      - US_216 TG@peekfun
+      - CN_111 TG@peekfun
+      - DE_194 | 6.13Mb
+      - CN_183 | 6.63Mb
+      - DE_298 |17.74Mb
+      - CN_95 TG@peekfun 2
+      - CN_64 TG@peekfun 2
+      - CN_108 TG@peekfun
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_31 TG@peekfun
-      - CN_33 TG@peekfun
-      - 香港2
-      - CN_38 TG@peekfun
-      - CN_116 TG@peekfun
+      - AU_54 |14.94Mb
+      - CN_173
+      - CN_193 |24.06Mb
+      - CN_231
+      - CN_244
+      - CN_248 | 3.36Mb
+      - CN_249 | 6.57Mb
+      - CN_25 TG@peekfun
+      - CN_251 | 6.99Mb
+      - CN_27 TG@peekfun
+      - CN_28 TG@peekfun
+      - CN_30 TG@peekfun
+      - CN_32 TG@peekfun
       - CN_44 TG@peekfun
+      - CN_45 TG@peekfun
       - CN_46 TG@peekfun
       - CN_47 TG@peekfun
-      - CN_102 TG@peekfun
-      - CN_103 TG@peekfun
-      - CN_92 TG@peekfun
-      - CN_123 TG@peekfun
-      - CN_120 TG@peekfun
-      - AU_03 TG@peekfun
-      - CN_507
-      - CN_71 TG@peekfun
+      - CN_48 TG@peekfun
+      - CN_49 TG@peekfun
+      - CN_50 TG@peekfun
+      - CN_51 TG@peekfun
+      - CN_52 TG@peekfun
+      - CN_53 TG@peekfun
+      - CN_54 TG@peekfun
+      - CN_56 TG@peekfun
+      - CN_57 TG@peekfun
+      - CN_58 TG@peekfun
+      - CN_59 TG@peekfun
+      - CN_60 TG@peekfun
+      - CN_62 TG@peekfun
+      - CN_63 TG@peekfun
+      - CN_64 TG@peekfun
+      - CN_65 TG@peekfun
+      - CN_66 TG@peekfun
+      - CN_67 TG@peekfun
+      - CN_68 TG@peekfun
       - CN_69 TG@peekfun
-      - CN_84 TG@peekfun
-      - CN_127 TG@peekfun
       - CN_70 TG@peekfun
-      - CN_91 TG@peekfun
-      - US_220 TG@peekfun
-      - CN_506
-      - US_205 TG@peekfun
-      - CN_109 TG@peekfun
-      - US_190 TG@peekfun
-      - CN_75 TG@peekfun
-      - JP 18
-      - US_206 TG@peekfun
+      - CN_71 TG@peekfun
+      - CN_72 TG@peekfun
       - CN_80 TG@peekfun
-      - CN_78 TG@peekfun
-      - CN_79 TG@peekfun
-      - 新加坡
-      - 日本1
-      - US01-V2-直连
-      - US 142
-      - JP_163 TG@peekfun
-      - DE_134 TG@peekfun
-      - 美国11
-      - US-137.184.246.148-11
-      - 台湾1
-      - CN_88 TG@peekfun
-      - US-164.92.69.193-01
-      - DE_538
-      - DE_539
+      - CN_84 TG@peekfun
+      - CN_85 TG@peekfun
+      - CN_92 TG@peekfun
+      - CN_95 TG@peekfun
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 8
+      - DE_300
+      - DE_98 TG@peekfun
+      - Relay_🇨🇳CN-🏁ZZ_264
+      - Relay_🇨🇳CN-🏁ZZ_265
+      - Relay_🇨🇳CN-🏁ZZ_266
+      - Relay_🇨🇳CN-🏁ZZ_268
+      - Relay_🇨🇳CN-🏁ZZ_271
+      - Relay_🇺🇸US-🇺🇸US_2225
+      - US_172 TG@peekfun
+      - US_174 TG@peekfun
+      - US-104.243.30.252-52
+      - koyeb
+      - CN_84 TG@peekfun 2
+      - CN_97 TG@peekfun
+      - CN_89 TG@peekfun
+      - CN_100 TG@peekfun
+      - CN_107 TG@peekfun
+      - CN_187 |10.58Mb
+      - CN_113 TG@peekfun
+      - CN_175 |24.03Mb
+      - CN_188 |11.06Mb
+      - CN_182
+      - CN_177 | 7.15Mb
+      - CN_150 | 6.63Mb
+      - CN_92 TG@peekfun 2
+      - CN_251 |23.79Mb
+      - CN_170 |24.27Mb
+      - CN_72 TG@peekfun 2
+      - CN_283 | 9.60Mb
+      - CN_260 |23.98Mb
+      - CN_176
+      - CN_96 TG@peekfun
+      - CN_73 TG@peekfun
+      - CN_110 TG@peekfun
+      - CN_75 TG@peekfun
+      - CN_486
       - CN_76 TG@peekfun
-      - 美国12
-      - CN_82 TG@peekfun
-      - DE_138 TG@peekfun
-      - DE_139 TG@peekfun
-      - DE_137 TG@peekfun
-      - US_212 TG@peekfun
-      - 美国13
-      - CN_130 TG@peekfun
-      - CN_131 TG@peekfun
-      - DE_140 TG@peekfun
-      - AU_02 TG@peekfun
-      - DE_533
-      - CN_299 |23.98Mb
-      - CN_74 TG@peekfun
-      - CN_121 TG@peekfun
-      - JP 137
-      - RELAY-104.21.72.236-46
-      - US_192 TG@peekfun
-      - CN_117 TG@peekfun
-      - CN_125 TG@peekfun
-      - US_216 TG@peekfun
+      - CN_111 TG@peekfun
+      - DE_194 | 6.13Mb
+      - CN_183 | 6.63Mb
+      - DE_298 |17.74Mb
+      - CN_95 TG@peekfun 2
+      - CN_64 TG@peekfun 2
+      - CN_108 TG@peekfun
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_31 TG@peekfun
-      - CN_33 TG@peekfun
-      - 香港2
-      - CN_38 TG@peekfun
-      - CN_116 TG@peekfun
+      - AU_54 |14.94Mb
+      - CN_173
+      - CN_193 |24.06Mb
+      - CN_231
+      - CN_244
+      - CN_248 | 3.36Mb
+      - CN_249 | 6.57Mb
+      - CN_25 TG@peekfun
+      - CN_251 | 6.99Mb
+      - CN_27 TG@peekfun
+      - CN_28 TG@peekfun
+      - CN_30 TG@peekfun
+      - CN_32 TG@peekfun
       - CN_44 TG@peekfun
+      - CN_45 TG@peekfun
       - CN_46 TG@peekfun
       - CN_47 TG@peekfun
-      - CN_102 TG@peekfun
-      - CN_103 TG@peekfun
-      - CN_92 TG@peekfun
-      - CN_123 TG@peekfun
-      - CN_120 TG@peekfun
-      - AU_03 TG@peekfun
-      - CN_507
-      - CN_71 TG@peekfun
+      - CN_48 TG@peekfun
+      - CN_49 TG@peekfun
+      - CN_50 TG@peekfun
+      - CN_51 TG@peekfun
+      - CN_52 TG@peekfun
+      - CN_53 TG@peekfun
+      - CN_54 TG@peekfun
+      - CN_56 TG@peekfun
+      - CN_57 TG@peekfun
+      - CN_58 TG@peekfun
+      - CN_59 TG@peekfun
+      - CN_60 TG@peekfun
+      - CN_62 TG@peekfun
+      - CN_63 TG@peekfun
+      - CN_64 TG@peekfun
+      - CN_65 TG@peekfun
+      - CN_66 TG@peekfun
+      - CN_67 TG@peekfun
+      - CN_68 TG@peekfun
       - CN_69 TG@peekfun
-      - CN_84 TG@peekfun
-      - CN_127 TG@peekfun
       - CN_70 TG@peekfun
-      - CN_91 TG@peekfun
-      - US_220 TG@peekfun
-      - CN_506
-      - US_205 TG@peekfun
-      - CN_109 TG@peekfun
-      - US_190 TG@peekfun
-      - CN_75 TG@peekfun
-      - JP 18
-      - US_206 TG@peekfun
+      - CN_71 TG@peekfun
+      - CN_72 TG@peekfun
       - CN_80 TG@peekfun
-      - CN_78 TG@peekfun
-      - CN_79 TG@peekfun
-      - 新加坡
-      - 日本1
-      - US01-V2-直连
-      - US 142
-      - JP_163 TG@peekfun
-      - DE_134 TG@peekfun
-      - 美国11
-      - US-137.184.246.148-11
-      - 台湾1
-      - CN_88 TG@peekfun
-      - US-164.92.69.193-01
-      - DE_538
-      - DE_539
+      - CN_84 TG@peekfun
+      - CN_85 TG@peekfun
+      - CN_92 TG@peekfun
+      - CN_95 TG@peekfun
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 8
+      - DE_300
+      - DE_98 TG@peekfun
+      - Relay_🇨🇳CN-🏁ZZ_264
+      - Relay_🇨🇳CN-🏁ZZ_265
+      - Relay_🇨🇳CN-🏁ZZ_266
+      - Relay_🇨🇳CN-🏁ZZ_268
+      - Relay_🇨🇳CN-🏁ZZ_271
+      - Relay_🇺🇸US-🇺🇸US_2225
+      - US_172 TG@peekfun
+      - US_174 TG@peekfun
+      - US-104.243.30.252-52
+      - koyeb
+      - CN_84 TG@peekfun 2
+      - CN_97 TG@peekfun
+      - CN_89 TG@peekfun
+      - CN_100 TG@peekfun
+      - CN_107 TG@peekfun
+      - CN_187 |10.58Mb
+      - CN_113 TG@peekfun
+      - CN_175 |24.03Mb
+      - CN_188 |11.06Mb
+      - CN_182
+      - CN_177 | 7.15Mb
+      - CN_150 | 6.63Mb
+      - CN_92 TG@peekfun 2
+      - CN_251 |23.79Mb
+      - CN_170 |24.27Mb
+      - CN_72 TG@peekfun 2
+      - CN_283 | 9.60Mb
+      - CN_260 |23.98Mb
+      - CN_176
+      - CN_96 TG@peekfun
+      - CN_73 TG@peekfun
+      - CN_110 TG@peekfun
+      - CN_75 TG@peekfun
+      - CN_486
       - CN_76 TG@peekfun
-      - 美国12
-      - CN_82 TG@peekfun
-      - DE_138 TG@peekfun
-      - DE_139 TG@peekfun
-      - DE_137 TG@peekfun
-      - US_212 TG@peekfun
-      - 美国13
-      - CN_130 TG@peekfun
-      - CN_131 TG@peekfun
-      - DE_140 TG@peekfun
-      - AU_02 TG@peekfun
-      - DE_533
-      - CN_299 |23.98Mb
-      - CN_74 TG@peekfun
-      - CN_121 TG@peekfun
-      - JP 137
-      - RELAY-104.21.72.236-46
-      - US_192 TG@peekfun
-      - CN_117 TG@peekfun
-      - CN_125 TG@peekfun
-      - US_216 TG@peekfun
+      - CN_111 TG@peekfun
+      - DE_194 | 6.13Mb
+      - CN_183 | 6.63Mb
+      - DE_298 |17.74Mb
+      - CN_95 TG@peekfun 2
+      - CN_64 TG@peekfun 2
+      - CN_108 TG@peekfun
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -308,297 +404,391 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_31 TG@peekfun
-      - CN_33 TG@peekfun
-      - 香港2
-      - CN_38 TG@peekfun
-      - CN_116 TG@peekfun
+      - AU_54 |14.94Mb
+      - CN_173
+      - CN_193 |24.06Mb
+      - CN_231
+      - CN_244
+      - CN_248 | 3.36Mb
+      - CN_249 | 6.57Mb
+      - CN_25 TG@peekfun
+      - CN_251 | 6.99Mb
+      - CN_27 TG@peekfun
+      - CN_28 TG@peekfun
+      - CN_30 TG@peekfun
+      - CN_32 TG@peekfun
       - CN_44 TG@peekfun
+      - CN_45 TG@peekfun
       - CN_46 TG@peekfun
       - CN_47 TG@peekfun
-      - CN_102 TG@peekfun
-      - CN_103 TG@peekfun
-      - CN_92 TG@peekfun
-      - CN_123 TG@peekfun
-      - CN_120 TG@peekfun
-      - AU_03 TG@peekfun
-      - CN_507
-      - CN_71 TG@peekfun
+      - CN_48 TG@peekfun
+      - CN_49 TG@peekfun
+      - CN_50 TG@peekfun
+      - CN_51 TG@peekfun
+      - CN_52 TG@peekfun
+      - CN_53 TG@peekfun
+      - CN_54 TG@peekfun
+      - CN_56 TG@peekfun
+      - CN_57 TG@peekfun
+      - CN_58 TG@peekfun
+      - CN_59 TG@peekfun
+      - CN_60 TG@peekfun
+      - CN_62 TG@peekfun
+      - CN_63 TG@peekfun
+      - CN_64 TG@peekfun
+      - CN_65 TG@peekfun
+      - CN_66 TG@peekfun
+      - CN_67 TG@peekfun
+      - CN_68 TG@peekfun
       - CN_69 TG@peekfun
-      - CN_84 TG@peekfun
-      - CN_127 TG@peekfun
       - CN_70 TG@peekfun
-      - CN_91 TG@peekfun
-      - US_220 TG@peekfun
-      - CN_506
-      - US_205 TG@peekfun
-      - CN_109 TG@peekfun
-      - US_190 TG@peekfun
-      - CN_75 TG@peekfun
-      - JP 18
-      - US_206 TG@peekfun
+      - CN_71 TG@peekfun
+      - CN_72 TG@peekfun
       - CN_80 TG@peekfun
-      - CN_78 TG@peekfun
-      - CN_79 TG@peekfun
-      - 新加坡
-      - 日本1
-      - US01-V2-直连
-      - US 142
-      - JP_163 TG@peekfun
-      - DE_134 TG@peekfun
-      - 美国11
-      - US-137.184.246.148-11
-      - 台湾1
-      - CN_88 TG@peekfun
-      - US-164.92.69.193-01
-      - DE_538
-      - DE_539
+      - CN_84 TG@peekfun
+      - CN_85 TG@peekfun
+      - CN_92 TG@peekfun
+      - CN_95 TG@peekfun
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 8
+      - DE_300
+      - DE_98 TG@peekfun
+      - Relay_🇨🇳CN-🏁ZZ_264
+      - Relay_🇨🇳CN-🏁ZZ_265
+      - Relay_🇨🇳CN-🏁ZZ_266
+      - Relay_🇨🇳CN-🏁ZZ_268
+      - Relay_🇨🇳CN-🏁ZZ_271
+      - Relay_🇺🇸US-🇺🇸US_2225
+      - US_172 TG@peekfun
+      - US_174 TG@peekfun
+      - US-104.243.30.252-52
+      - koyeb
+      - CN_84 TG@peekfun 2
+      - CN_97 TG@peekfun
+      - CN_89 TG@peekfun
+      - CN_100 TG@peekfun
+      - CN_107 TG@peekfun
+      - CN_187 |10.58Mb
+      - CN_113 TG@peekfun
+      - CN_175 |24.03Mb
+      - CN_188 |11.06Mb
+      - CN_182
+      - CN_177 | 7.15Mb
+      - CN_150 | 6.63Mb
+      - CN_92 TG@peekfun 2
+      - CN_251 |23.79Mb
+      - CN_170 |24.27Mb
+      - CN_72 TG@peekfun 2
+      - CN_283 | 9.60Mb
+      - CN_260 |23.98Mb
+      - CN_176
+      - CN_96 TG@peekfun
+      - CN_73 TG@peekfun
+      - CN_110 TG@peekfun
+      - CN_75 TG@peekfun
+      - CN_486
       - CN_76 TG@peekfun
-      - 美国12
-      - CN_82 TG@peekfun
-      - DE_138 TG@peekfun
-      - DE_139 TG@peekfun
-      - DE_137 TG@peekfun
-      - US_212 TG@peekfun
-      - 美国13
-      - CN_130 TG@peekfun
-      - CN_131 TG@peekfun
-      - DE_140 TG@peekfun
-      - AU_02 TG@peekfun
-      - DE_533
-      - CN_299 |23.98Mb
-      - CN_74 TG@peekfun
-      - CN_121 TG@peekfun
-      - JP 137
-      - RELAY-104.21.72.236-46
-      - US_192 TG@peekfun
-      - CN_117 TG@peekfun
-      - CN_125 TG@peekfun
-      - US_216 TG@peekfun
+      - CN_111 TG@peekfun
+      - DE_194 | 6.13Mb
+      - CN_183 | 6.63Mb
+      - DE_298 |17.74Mb
+      - CN_95 TG@peekfun 2
+      - CN_64 TG@peekfun 2
+      - CN_108 TG@peekfun
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港2
-      - 台湾1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_31 TG@peekfun
-      - CN_33 TG@peekfun
-      - 香港2
-      - CN_38 TG@peekfun
-      - CN_116 TG@peekfun
+      - AU_54 |14.94Mb
+      - CN_173
+      - CN_193 |24.06Mb
+      - CN_231
+      - CN_244
+      - CN_248 | 3.36Mb
+      - CN_249 | 6.57Mb
+      - CN_25 TG@peekfun
+      - CN_251 | 6.99Mb
+      - CN_27 TG@peekfun
+      - CN_28 TG@peekfun
+      - CN_30 TG@peekfun
+      - CN_32 TG@peekfun
       - CN_44 TG@peekfun
+      - CN_45 TG@peekfun
       - CN_46 TG@peekfun
       - CN_47 TG@peekfun
-      - CN_102 TG@peekfun
-      - CN_103 TG@peekfun
-      - CN_92 TG@peekfun
-      - CN_123 TG@peekfun
-      - CN_120 TG@peekfun
-      - AU_03 TG@peekfun
-      - CN_507
-      - CN_71 TG@peekfun
+      - CN_48 TG@peekfun
+      - CN_49 TG@peekfun
+      - CN_50 TG@peekfun
+      - CN_51 TG@peekfun
+      - CN_52 TG@peekfun
+      - CN_53 TG@peekfun
+      - CN_54 TG@peekfun
+      - CN_56 TG@peekfun
+      - CN_57 TG@peekfun
+      - CN_58 TG@peekfun
+      - CN_59 TG@peekfun
+      - CN_60 TG@peekfun
+      - CN_62 TG@peekfun
+      - CN_63 TG@peekfun
+      - CN_64 TG@peekfun
+      - CN_65 TG@peekfun
+      - CN_66 TG@peekfun
+      - CN_67 TG@peekfun
+      - CN_68 TG@peekfun
       - CN_69 TG@peekfun
-      - CN_84 TG@peekfun
-      - CN_127 TG@peekfun
       - CN_70 TG@peekfun
-      - CN_91 TG@peekfun
-      - US_220 TG@peekfun
-      - CN_506
-      - US_205 TG@peekfun
-      - CN_109 TG@peekfun
-      - US_190 TG@peekfun
-      - CN_75 TG@peekfun
-      - JP 18
-      - US_206 TG@peekfun
+      - CN_71 TG@peekfun
+      - CN_72 TG@peekfun
       - CN_80 TG@peekfun
-      - CN_78 TG@peekfun
-      - CN_79 TG@peekfun
-      - 新加坡
-      - 日本1
-      - US01-V2-直连
-      - US 142
-      - JP_163 TG@peekfun
-      - DE_134 TG@peekfun
-      - 美国11
-      - US-137.184.246.148-11
-      - 台湾1
-      - CN_88 TG@peekfun
-      - US-164.92.69.193-01
-      - DE_538
-      - DE_539
+      - CN_84 TG@peekfun
+      - CN_85 TG@peekfun
+      - CN_92 TG@peekfun
+      - CN_95 TG@peekfun
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 8
+      - DE_300
+      - DE_98 TG@peekfun
+      - Relay_🇨🇳CN-🏁ZZ_264
+      - Relay_🇨🇳CN-🏁ZZ_265
+      - Relay_🇨🇳CN-🏁ZZ_266
+      - Relay_🇨🇳CN-🏁ZZ_268
+      - Relay_🇨🇳CN-🏁ZZ_271
+      - Relay_🇺🇸US-🇺🇸US_2225
+      - US_172 TG@peekfun
+      - US_174 TG@peekfun
+      - US-104.243.30.252-52
+      - koyeb
+      - CN_84 TG@peekfun 2
+      - CN_97 TG@peekfun
+      - CN_89 TG@peekfun
+      - CN_100 TG@peekfun
+      - CN_107 TG@peekfun
+      - CN_187 |10.58Mb
+      - CN_113 TG@peekfun
+      - CN_175 |24.03Mb
+      - CN_188 |11.06Mb
+      - CN_182
+      - CN_177 | 7.15Mb
+      - CN_150 | 6.63Mb
+      - CN_92 TG@peekfun 2
+      - CN_251 |23.79Mb
+      - CN_170 |24.27Mb
+      - CN_72 TG@peekfun 2
+      - CN_283 | 9.60Mb
+      - CN_260 |23.98Mb
+      - CN_176
+      - CN_96 TG@peekfun
+      - CN_73 TG@peekfun
+      - CN_110 TG@peekfun
+      - CN_75 TG@peekfun
+      - CN_486
       - CN_76 TG@peekfun
-      - 美国12
-      - CN_82 TG@peekfun
-      - DE_138 TG@peekfun
-      - DE_139 TG@peekfun
-      - DE_137 TG@peekfun
-      - US_212 TG@peekfun
-      - 美国13
-      - CN_130 TG@peekfun
-      - CN_131 TG@peekfun
-      - DE_140 TG@peekfun
-      - AU_02 TG@peekfun
-      - DE_533
-      - CN_299 |23.98Mb
-      - CN_74 TG@peekfun
-      - CN_121 TG@peekfun
-      - JP 137
-      - RELAY-104.21.72.236-46
-      - US_192 TG@peekfun
-      - CN_117 TG@peekfun
-      - CN_125 TG@peekfun
-      - US_216 TG@peekfun
+      - CN_111 TG@peekfun
+      - DE_194 | 6.13Mb
+      - CN_183 | 6.63Mb
+      - DE_298 |17.74Mb
+      - CN_95 TG@peekfun 2
+      - CN_64 TG@peekfun 2
+      - CN_108 TG@peekfun
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_31 TG@peekfun
-      - CN_33 TG@peekfun
-      - 香港2
-      - CN_38 TG@peekfun
-      - CN_116 TG@peekfun
+      - AU_54 |14.94Mb
+      - CN_173
+      - CN_193 |24.06Mb
+      - CN_231
+      - CN_244
+      - CN_248 | 3.36Mb
+      - CN_249 | 6.57Mb
+      - CN_25 TG@peekfun
+      - CN_251 | 6.99Mb
+      - CN_27 TG@peekfun
+      - CN_28 TG@peekfun
+      - CN_30 TG@peekfun
+      - CN_32 TG@peekfun
       - CN_44 TG@peekfun
+      - CN_45 TG@peekfun
       - CN_46 TG@peekfun
       - CN_47 TG@peekfun
-      - CN_102 TG@peekfun
-      - CN_103 TG@peekfun
-      - CN_92 TG@peekfun
-      - CN_123 TG@peekfun
-      - CN_120 TG@peekfun
-      - AU_03 TG@peekfun
-      - CN_507
-      - CN_71 TG@peekfun
+      - CN_48 TG@peekfun
+      - CN_49 TG@peekfun
+      - CN_50 TG@peekfun
+      - CN_51 TG@peekfun
+      - CN_52 TG@peekfun
+      - CN_53 TG@peekfun
+      - CN_54 TG@peekfun
+      - CN_56 TG@peekfun
+      - CN_57 TG@peekfun
+      - CN_58 TG@peekfun
+      - CN_59 TG@peekfun
+      - CN_60 TG@peekfun
+      - CN_62 TG@peekfun
+      - CN_63 TG@peekfun
+      - CN_64 TG@peekfun
+      - CN_65 TG@peekfun
+      - CN_66 TG@peekfun
+      - CN_67 TG@peekfun
+      - CN_68 TG@peekfun
       - CN_69 TG@peekfun
-      - CN_84 TG@peekfun
-      - CN_127 TG@peekfun
       - CN_70 TG@peekfun
-      - CN_91 TG@peekfun
-      - US_220 TG@peekfun
-      - CN_506
-      - US_205 TG@peekfun
-      - CN_109 TG@peekfun
-      - US_190 TG@peekfun
-      - CN_75 TG@peekfun
-      - JP 18
-      - US_206 TG@peekfun
+      - CN_71 TG@peekfun
+      - CN_72 TG@peekfun
       - CN_80 TG@peekfun
-      - CN_78 TG@peekfun
-      - CN_79 TG@peekfun
-      - 新加坡
-      - 日本1
-      - US01-V2-直连
-      - US 142
-      - JP_163 TG@peekfun
-      - DE_134 TG@peekfun
-      - 美国11
-      - US-137.184.246.148-11
-      - 台湾1
-      - CN_88 TG@peekfun
-      - US-164.92.69.193-01
-      - DE_538
-      - DE_539
+      - CN_84 TG@peekfun
+      - CN_85 TG@peekfun
+      - CN_92 TG@peekfun
+      - CN_95 TG@peekfun
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 8
+      - DE_300
+      - DE_98 TG@peekfun
+      - Relay_🇨🇳CN-🏁ZZ_264
+      - Relay_🇨🇳CN-🏁ZZ_265
+      - Relay_🇨🇳CN-🏁ZZ_266
+      - Relay_🇨🇳CN-🏁ZZ_268
+      - Relay_🇨🇳CN-🏁ZZ_271
+      - Relay_🇺🇸US-🇺🇸US_2225
+      - US_172 TG@peekfun
+      - US_174 TG@peekfun
+      - US-104.243.30.252-52
+      - koyeb
+      - CN_84 TG@peekfun 2
+      - CN_97 TG@peekfun
+      - CN_89 TG@peekfun
+      - CN_100 TG@peekfun
+      - CN_107 TG@peekfun
+      - CN_187 |10.58Mb
+      - CN_113 TG@peekfun
+      - CN_175 |24.03Mb
+      - CN_188 |11.06Mb
+      - CN_182
+      - CN_177 | 7.15Mb
+      - CN_150 | 6.63Mb
+      - CN_92 TG@peekfun 2
+      - CN_251 |23.79Mb
+      - CN_170 |24.27Mb
+      - CN_72 TG@peekfun 2
+      - CN_283 | 9.60Mb
+      - CN_260 |23.98Mb
+      - CN_176
+      - CN_96 TG@peekfun
+      - CN_73 TG@peekfun
+      - CN_110 TG@peekfun
+      - CN_75 TG@peekfun
+      - CN_486
       - CN_76 TG@peekfun
-      - 美国12
-      - CN_82 TG@peekfun
-      - DE_138 TG@peekfun
-      - DE_139 TG@peekfun
-      - DE_137 TG@peekfun
-      - US_212 TG@peekfun
-      - 美国13
-      - CN_130 TG@peekfun
-      - CN_131 TG@peekfun
-      - DE_140 TG@peekfun
-      - AU_02 TG@peekfun
-      - DE_533
-      - CN_299 |23.98Mb
-      - CN_74 TG@peekfun
-      - CN_121 TG@peekfun
-      - JP 137
-      - RELAY-104.21.72.236-46
-      - US_192 TG@peekfun
-      - CN_117 TG@peekfun
-      - CN_125 TG@peekfun
-      - US_216 TG@peekfun
+      - CN_111 TG@peekfun
+      - DE_194 | 6.13Mb
+      - CN_183 | 6.63Mb
+      - DE_298 |17.74Mb
+      - CN_95 TG@peekfun 2
+      - CN_64 TG@peekfun 2
+      - CN_108 TG@peekfun
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_31 TG@peekfun
-      - CN_33 TG@peekfun
-      - 香港2
-      - CN_38 TG@peekfun
-      - CN_116 TG@peekfun
+      - AU_54 |14.94Mb
+      - CN_173
+      - CN_193 |24.06Mb
+      - CN_231
+      - CN_244
+      - CN_248 | 3.36Mb
+      - CN_249 | 6.57Mb
+      - CN_25 TG@peekfun
+      - CN_251 | 6.99Mb
+      - CN_27 TG@peekfun
+      - CN_28 TG@peekfun
+      - CN_30 TG@peekfun
+      - CN_32 TG@peekfun
       - CN_44 TG@peekfun
+      - CN_45 TG@peekfun
       - CN_46 TG@peekfun
       - CN_47 TG@peekfun
-      - CN_102 TG@peekfun
-      - CN_103 TG@peekfun
-      - CN_92 TG@peekfun
-      - CN_123 TG@peekfun
-      - CN_120 TG@peekfun
-      - AU_03 TG@peekfun
-      - CN_507
-      - CN_71 TG@peekfun
+      - CN_48 TG@peekfun
+      - CN_49 TG@peekfun
+      - CN_50 TG@peekfun
+      - CN_51 TG@peekfun
+      - CN_52 TG@peekfun
+      - CN_53 TG@peekfun
+      - CN_54 TG@peekfun
+      - CN_56 TG@peekfun
+      - CN_57 TG@peekfun
+      - CN_58 TG@peekfun
+      - CN_59 TG@peekfun
+      - CN_60 TG@peekfun
+      - CN_62 TG@peekfun
+      - CN_63 TG@peekfun
+      - CN_64 TG@peekfun
+      - CN_65 TG@peekfun
+      - CN_66 TG@peekfun
+      - CN_67 TG@peekfun
+      - CN_68 TG@peekfun
       - CN_69 TG@peekfun
-      - CN_84 TG@peekfun
-      - CN_127 TG@peekfun
       - CN_70 TG@peekfun
-      - CN_91 TG@peekfun
-      - US_220 TG@peekfun
-      - CN_506
-      - US_205 TG@peekfun
-      - CN_109 TG@peekfun
-      - US_190 TG@peekfun
-      - CN_75 TG@peekfun
-      - JP 18
-      - US_206 TG@peekfun
+      - CN_71 TG@peekfun
+      - CN_72 TG@peekfun
       - CN_80 TG@peekfun
-      - CN_78 TG@peekfun
-      - CN_79 TG@peekfun
-      - 新加坡
-      - 日本1
-      - US01-V2-直连
-      - US 142
-      - JP_163 TG@peekfun
-      - DE_134 TG@peekfun
-      - 美国11
-      - US-137.184.246.148-11
-      - 台湾1
-      - CN_88 TG@peekfun
-      - US-164.92.69.193-01
-      - DE_538
-      - DE_539
+      - CN_84 TG@peekfun
+      - CN_85 TG@peekfun
+      - CN_92 TG@peekfun
+      - CN_95 TG@peekfun
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 8
+      - DE_300
+      - DE_98 TG@peekfun
+      - Relay_🇨🇳CN-🏁ZZ_264
+      - Relay_🇨🇳CN-🏁ZZ_265
+      - Relay_🇨🇳CN-🏁ZZ_266
+      - Relay_🇨🇳CN-🏁ZZ_268
+      - Relay_🇨🇳CN-🏁ZZ_271
+      - Relay_🇺🇸US-🇺🇸US_2225
+      - US_172 TG@peekfun
+      - US_174 TG@peekfun
+      - US-104.243.30.252-52
+      - koyeb
+      - CN_84 TG@peekfun 2
+      - CN_97 TG@peekfun
+      - CN_89 TG@peekfun
+      - CN_100 TG@peekfun
+      - CN_107 TG@peekfun
+      - CN_187 |10.58Mb
+      - CN_113 TG@peekfun
+      - CN_175 |24.03Mb
+      - CN_188 |11.06Mb
+      - CN_182
+      - CN_177 | 7.15Mb
+      - CN_150 | 6.63Mb
+      - CN_92 TG@peekfun 2
+      - CN_251 |23.79Mb
+      - CN_170 |24.27Mb
+      - CN_72 TG@peekfun 2
+      - CN_283 | 9.60Mb
+      - CN_260 |23.98Mb
+      - CN_176
+      - CN_96 TG@peekfun
+      - CN_73 TG@peekfun
+      - CN_110 TG@peekfun
+      - CN_75 TG@peekfun
+      - CN_486
       - CN_76 TG@peekfun
-      - 美国12
-      - CN_82 TG@peekfun
-      - DE_138 TG@peekfun
-      - DE_139 TG@peekfun
-      - DE_137 TG@peekfun
-      - US_212 TG@peekfun
-      - 美国13
-      - CN_130 TG@peekfun
-      - CN_131 TG@peekfun
-      - DE_140 TG@peekfun
-      - AU_02 TG@peekfun
-      - DE_533
-      - CN_299 |23.98Mb
-      - CN_74 TG@peekfun
-      - CN_121 TG@peekfun
-      - JP 137
-      - RELAY-104.21.72.236-46
-      - US_192 TG@peekfun
-      - CN_117 TG@peekfun
-      - CN_125 TG@peekfun
-      - US_216 TG@peekfun
+      - CN_111 TG@peekfun
+      - DE_194 | 6.13Mb
+      - CN_183 | 6.63Mb
+      - DE_298 |17.74Mb
+      - CN_95 TG@peekfun 2
+      - CN_64 TG@peekfun 2
+      - CN_108 TG@peekfun
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -614,73 +804,97 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_31 TG@peekfun
-      - CN_33 TG@peekfun
-      - 香港2
-      - CN_38 TG@peekfun
-      - CN_116 TG@peekfun
+      - AU_54 |14.94Mb
+      - CN_173
+      - CN_193 |24.06Mb
+      - CN_231
+      - CN_244
+      - CN_248 | 3.36Mb
+      - CN_249 | 6.57Mb
+      - CN_25 TG@peekfun
+      - CN_251 | 6.99Mb
+      - CN_27 TG@peekfun
+      - CN_28 TG@peekfun
+      - CN_30 TG@peekfun
+      - CN_32 TG@peekfun
       - CN_44 TG@peekfun
+      - CN_45 TG@peekfun
       - CN_46 TG@peekfun
       - CN_47 TG@peekfun
-      - CN_102 TG@peekfun
-      - CN_103 TG@peekfun
-      - CN_92 TG@peekfun
-      - CN_123 TG@peekfun
-      - CN_120 TG@peekfun
-      - AU_03 TG@peekfun
-      - CN_507
-      - CN_71 TG@peekfun
+      - CN_48 TG@peekfun
+      - CN_49 TG@peekfun
+      - CN_50 TG@peekfun
+      - CN_51 TG@peekfun
+      - CN_52 TG@peekfun
+      - CN_53 TG@peekfun
+      - CN_54 TG@peekfun
+      - CN_56 TG@peekfun
+      - CN_57 TG@peekfun
+      - CN_58 TG@peekfun
+      - CN_59 TG@peekfun
+      - CN_60 TG@peekfun
+      - CN_62 TG@peekfun
+      - CN_63 TG@peekfun
+      - CN_64 TG@peekfun
+      - CN_65 TG@peekfun
+      - CN_66 TG@peekfun
+      - CN_67 TG@peekfun
+      - CN_68 TG@peekfun
       - CN_69 TG@peekfun
-      - CN_84 TG@peekfun
-      - CN_127 TG@peekfun
       - CN_70 TG@peekfun
-      - CN_91 TG@peekfun
-      - US_220 TG@peekfun
-      - CN_506
-      - US_205 TG@peekfun
-      - CN_109 TG@peekfun
-      - US_190 TG@peekfun
-      - CN_75 TG@peekfun
-      - JP 18
-      - US_206 TG@peekfun
+      - CN_71 TG@peekfun
+      - CN_72 TG@peekfun
       - CN_80 TG@peekfun
-      - CN_78 TG@peekfun
-      - CN_79 TG@peekfun
-      - 新加坡
-      - 日本1
-      - US01-V2-直连
-      - US 142
-      - JP_163 TG@peekfun
-      - DE_134 TG@peekfun
-      - 美国11
-      - US-137.184.246.148-11
-      - 台湾1
-      - CN_88 TG@peekfun
-      - US-164.92.69.193-01
-      - DE_538
-      - DE_539
+      - CN_84 TG@peekfun
+      - CN_85 TG@peekfun
+      - CN_92 TG@peekfun
+      - CN_95 TG@peekfun
+      - CN-高速节点推荐：v1.mk/vip 4
+      - CN-高速节点推荐：v1.mk/vip 8
+      - DE_300
+      - DE_98 TG@peekfun
+      - Relay_🇨🇳CN-🏁ZZ_264
+      - Relay_🇨🇳CN-🏁ZZ_265
+      - Relay_🇨🇳CN-🏁ZZ_266
+      - Relay_🇨🇳CN-🏁ZZ_268
+      - Relay_🇨🇳CN-🏁ZZ_271
+      - Relay_🇺🇸US-🇺🇸US_2225
+      - US_172 TG@peekfun
+      - US_174 TG@peekfun
+      - US-104.243.30.252-52
+      - koyeb
+      - CN_84 TG@peekfun 2
+      - CN_97 TG@peekfun
+      - CN_89 TG@peekfun
+      - CN_100 TG@peekfun
+      - CN_107 TG@peekfun
+      - CN_187 |10.58Mb
+      - CN_113 TG@peekfun
+      - CN_175 |24.03Mb
+      - CN_188 |11.06Mb
+      - CN_182
+      - CN_177 | 7.15Mb
+      - CN_150 | 6.63Mb
+      - CN_92 TG@peekfun 2
+      - CN_251 |23.79Mb
+      - CN_170 |24.27Mb
+      - CN_72 TG@peekfun 2
+      - CN_283 | 9.60Mb
+      - CN_260 |23.98Mb
+      - CN_176
+      - CN_96 TG@peekfun
+      - CN_73 TG@peekfun
+      - CN_110 TG@peekfun
+      - CN_75 TG@peekfun
+      - CN_486
       - CN_76 TG@peekfun
-      - 美国12
-      - CN_82 TG@peekfun
-      - DE_138 TG@peekfun
-      - DE_139 TG@peekfun
-      - DE_137 TG@peekfun
-      - US_212 TG@peekfun
-      - 美国13
-      - CN_130 TG@peekfun
-      - CN_131 TG@peekfun
-      - DE_140 TG@peekfun
-      - AU_02 TG@peekfun
-      - DE_533
-      - CN_299 |23.98Mb
-      - CN_74 TG@peekfun
-      - CN_121 TG@peekfun
-      - JP 137
-      - RELAY-104.21.72.236-46
-      - US_192 TG@peekfun
-      - CN_117 TG@peekfun
-      - CN_125 TG@peekfun
-      - US_216 TG@peekfun
+      - CN_111 TG@peekfun
+      - DE_194 | 6.13Mb
+      - CN_183 | 6.63Mb
+      - DE_298 |17.74Mb
+      - CN_95 TG@peekfun 2
+      - CN_64 TG@peekfun 2
+      - CN_108 TG@peekfun
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
