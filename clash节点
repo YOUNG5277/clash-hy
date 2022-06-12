@@ -27,6 +27,7 @@ proxies:
   - {name: JP 137, server: 18.183.213.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: JP_163 TG@peekfun, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US_192 TG@peekfun, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: koyeb, server: shishi-123-houyang12345.koyeb.app, port: 443, type: vmess, uuid: 11111111-1111-1111-1111-111111111111, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shishi-123-houyang12345.koyeb.app}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -55,6 +56,7 @@ proxy-groups:
       - JP 137
       - JP_163 TG@peekfun
       - US_192 TG@peekfun
+      - koyeb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -82,6 +84,7 @@ proxy-groups:
       - JP 137
       - JP_163 TG@peekfun
       - US_192 TG@peekfun
+      - koyeb
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -110,6 +113,7 @@ proxy-groups:
       - JP 137
       - JP_163 TG@peekfun
       - US_192 TG@peekfun
+      - koyeb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -150,6 +154,7 @@ proxy-groups:
       - JP 137
       - JP_163 TG@peekfun
       - US_192 TG@peekfun
+      - koyeb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -182,6 +187,7 @@ proxy-groups:
       - JP 137
       - JP_163 TG@peekfun
       - US_192 TG@peekfun
+      - koyeb
   - name: 📲 电报信息
     type: select
     proxies:
@@ -209,6 +215,7 @@ proxy-groups:
       - JP 137
       - JP_163 TG@peekfun
       - US_192 TG@peekfun
+      - koyeb
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -237,6 +244,7 @@ proxy-groups:
       - JP 137
       - JP_163 TG@peekfun
       - US_192 TG@peekfun
+      - koyeb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -274,6 +282,7 @@ proxy-groups:
       - JP 137
       - JP_163 TG@peekfun
       - US_192 TG@peekfun
+      - koyeb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
