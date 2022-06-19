@@ -5,115 +5,191 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: DE_300, server: 212.81.47.13, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: DE_538, server: 212.81.47.18, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: DE_139 TG@peekfun, server: 212.81.47.17, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: DE_98 TG@peekfun, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: US_212 TG@peekfun, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: DE_138 TG@peekfun, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
   - {name: US-164.92.69.193-01, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
   - {name: US_174 TG@peekfun, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: US_172 TG@peekfun, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: DE_539, server: 212.81.47.14, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: JP 18, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: RELAY-104.21.72.236-46, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
-  - {name: DE_134 TG@peekfun, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: DE_533, server: 212.81.47.16, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: AU_02 TG@peekfun, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: DE_137 TG@peekfun, server: 212.81.47.11, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: US-104.243.30.252-52, server: 104.243.30.252, port: 246, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: AU_03 TG@peekfun, server: kr04.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr04.wangxd.life, skip-cert-verify: true, udp: true}
-  - {name: DE_140 TG@peekfun, server: 212.81.47.15, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: JP 137, server: 18.183.213.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: JP_163 TG@peekfun, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US_192 TG@peekfun, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: koyeb, server: shishi-123-houyang12345.koyeb.app, port: 443, type: vmess, uuid: 11111111-1111-1111-1111-111111111111, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shishi-123-houyang12345.koyeb.app}, udp: true}
+  - {name: US-164.92.69.193-01 2, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: US-164.92.69.193-01 3, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: JP_163 TG@peekfun, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP_163 TG@peekfun 2, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US_192 TG@peekfun, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US_192 TG@peekfun 2, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 213.183.53.177:9057, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: US_192 TG@peekfun 3, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: DE_98 TG@peekfun, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: JP_163 TG@peekfun 3, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: DE_109 TG@peekfun, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: US_175 TG@peekfun, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: HK_118 TG@peekfun, server: azgy001.xiba1.xyz, port: 20713, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: DE_298 |17.74Mb, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: ZZ_1882 |17.67Mb, server: 134.195.196.231, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP 18, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: US_172 TG@peekfun, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 14.29.124.168:25222, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: JP 18 2, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: JP 18 3, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: US_172 TG@peekfun 2, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: DE_98 TG@peekfun 2, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: ZZ_223 TG@peekfun, server: 134.195.196.231, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 台湾家宽-广州微软, server: gy.ziqiyun.xyz, port: 47795, type: ss, cipher: chacha20-ietf-poly1305, password: 59836db8-6e5f-4b8b-aa1e-3963f9d9c923, udp: true}
+  - {name: ZZ_219 TG@peekfun, server: 134.195.196.231, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ZZ_226 TG@peekfun, server: 134.195.196.231, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_230 TG@peekfun, server: 134.195.196.231, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_222 TG@peekfun, server: 134.195.196.231, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ZZ_227 TG@peekfun, server: 134.195.196.231, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_218 TG@peekfun, server: 134.195.196.231, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ZZ_228 TG@peekfun, server: 134.195.196.231, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_225 TG@peekfun, server: 134.195.196.231, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ZZ_229 TG@peekfun, server: 134.195.196.231, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_765, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: ZZ_231 TG@peekfun, server: 134.195.196.231, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_220 TG@peekfun, server: 134.195.196.231, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 14.29.124.168:25268, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_208 TG@peekfun, server: ss2.2046.gq, port: 4443, type: trojan, password: 9eef43d9-712e-4850-bb7a-12b279a96de5, sni: ss2.2046.gq, skip-cert-verify: true, udp: true}
+  - {name: 香港 A03^, server: relay_cm1.flyxxl.xyz, port: 25004, type: vmess, uuid: 6a087926-b3eb-4545-bced-7f90094d8735, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /pic/fjiew2-054j0gewn23k-1fr, ws-headers: {Host: f932c3d98981b.download.microsoft.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE_300
-      - DE_538
-      - DE_139 TG@peekfun
-      - DE_98 TG@peekfun
-      - US_212 TG@peekfun
-      - DE_138 TG@peekfun
       - US-164.92.69.193-01
       - US_174 TG@peekfun
-      - US_172 TG@peekfun
-      - DE_539
-      - JP 18
-      - RELAY-104.21.72.236-46
-      - DE_134 TG@peekfun
-      - DE_533
-      - AU_02 TG@peekfun
-      - DE_137 TG@peekfun
-      - US-104.243.30.252-52
-      - AU_03 TG@peekfun
-      - DE_140 TG@peekfun
-      - JP 137
-      - JP_163 TG@peekfun
-      - US_192 TG@peekfun
       - koyeb
+      - US-164.92.69.193-01 2
+      - US-164.92.69.193-01 3
+      - JP_163 TG@peekfun
+      - JP_163 TG@peekfun 2
+      - US_192 TG@peekfun
+      - US_192 TG@peekfun 2
+      - 213.183.53.177:9057
+      - US_192 TG@peekfun 3
+      - DE_98 TG@peekfun
+      - JP_163 TG@peekfun 3
+      - DE_109 TG@peekfun
+      - US_175 TG@peekfun
+      - HK_118 TG@peekfun
+      - DE_298 |17.74Mb
+      - ZZ_1882 |17.67Mb
+      - JP 18
+      - US_172 TG@peekfun
+      - 14.29.124.168:25222
+      - JP 18 2
+      - JP 18 3
+      - US_172 TG@peekfun 2
+      - DE_98 TG@peekfun 2
+      - ZZ_223 TG@peekfun
+      - 台湾家宽-广州微软
+      - ZZ_219 TG@peekfun
+      - ZZ_226 TG@peekfun
+      - ZZ_230 TG@peekfun
+      - ZZ_222 TG@peekfun
+      - ZZ_227 TG@peekfun
+      - ZZ_218 TG@peekfun
+      - ZZ_228 TG@peekfun
+      - ZZ_225 TG@peekfun
+      - ZZ_229 TG@peekfun
+      - US_765
+      - ZZ_231 TG@peekfun
+      - ZZ_220 TG@peekfun
+      - 14.29.124.168:25268
+      - US_208 TG@peekfun
+      - 香港 A03^
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - DE_300
-      - DE_538
-      - DE_139 TG@peekfun
-      - DE_98 TG@peekfun
-      - US_212 TG@peekfun
-      - DE_138 TG@peekfun
       - US-164.92.69.193-01
       - US_174 TG@peekfun
-      - US_172 TG@peekfun
-      - DE_539
-      - JP 18
-      - RELAY-104.21.72.236-46
-      - DE_134 TG@peekfun
-      - DE_533
-      - AU_02 TG@peekfun
-      - DE_137 TG@peekfun
-      - US-104.243.30.252-52
-      - AU_03 TG@peekfun
-      - DE_140 TG@peekfun
-      - JP 137
-      - JP_163 TG@peekfun
-      - US_192 TG@peekfun
       - koyeb
+      - US-164.92.69.193-01 2
+      - US-164.92.69.193-01 3
+      - JP_163 TG@peekfun
+      - JP_163 TG@peekfun 2
+      - US_192 TG@peekfun
+      - US_192 TG@peekfun 2
+      - 213.183.53.177:9057
+      - US_192 TG@peekfun 3
+      - DE_98 TG@peekfun
+      - JP_163 TG@peekfun 3
+      - DE_109 TG@peekfun
+      - US_175 TG@peekfun
+      - HK_118 TG@peekfun
+      - DE_298 |17.74Mb
+      - ZZ_1882 |17.67Mb
+      - JP 18
+      - US_172 TG@peekfun
+      - 14.29.124.168:25222
+      - JP 18 2
+      - JP 18 3
+      - US_172 TG@peekfun 2
+      - DE_98 TG@peekfun 2
+      - ZZ_223 TG@peekfun
+      - 台湾家宽-广州微软
+      - ZZ_219 TG@peekfun
+      - ZZ_226 TG@peekfun
+      - ZZ_230 TG@peekfun
+      - ZZ_222 TG@peekfun
+      - ZZ_227 TG@peekfun
+      - ZZ_218 TG@peekfun
+      - ZZ_228 TG@peekfun
+      - ZZ_225 TG@peekfun
+      - ZZ_229 TG@peekfun
+      - US_765
+      - ZZ_231 TG@peekfun
+      - ZZ_220 TG@peekfun
+      - 14.29.124.168:25268
+      - US_208 TG@peekfun
+      - 香港 A03^
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE_300
-      - DE_538
-      - DE_139 TG@peekfun
-      - DE_98 TG@peekfun
-      - US_212 TG@peekfun
-      - DE_138 TG@peekfun
       - US-164.92.69.193-01
       - US_174 TG@peekfun
-      - US_172 TG@peekfun
-      - DE_539
-      - JP 18
-      - RELAY-104.21.72.236-46
-      - DE_134 TG@peekfun
-      - DE_533
-      - AU_02 TG@peekfun
-      - DE_137 TG@peekfun
-      - US-104.243.30.252-52
-      - AU_03 TG@peekfun
-      - DE_140 TG@peekfun
-      - JP 137
-      - JP_163 TG@peekfun
-      - US_192 TG@peekfun
       - koyeb
+      - US-164.92.69.193-01 2
+      - US-164.92.69.193-01 3
+      - JP_163 TG@peekfun
+      - JP_163 TG@peekfun 2
+      - US_192 TG@peekfun
+      - US_192 TG@peekfun 2
+      - 213.183.53.177:9057
+      - US_192 TG@peekfun 3
+      - DE_98 TG@peekfun
+      - JP_163 TG@peekfun 3
+      - DE_109 TG@peekfun
+      - US_175 TG@peekfun
+      - HK_118 TG@peekfun
+      - DE_298 |17.74Mb
+      - ZZ_1882 |17.67Mb
+      - JP 18
+      - US_172 TG@peekfun
+      - 14.29.124.168:25222
+      - JP 18 2
+      - JP 18 3
+      - US_172 TG@peekfun 2
+      - DE_98 TG@peekfun 2
+      - ZZ_223 TG@peekfun
+      - 台湾家宽-广州微软
+      - ZZ_219 TG@peekfun
+      - ZZ_226 TG@peekfun
+      - ZZ_230 TG@peekfun
+      - ZZ_222 TG@peekfun
+      - ZZ_227 TG@peekfun
+      - ZZ_218 TG@peekfun
+      - ZZ_228 TG@peekfun
+      - ZZ_225 TG@peekfun
+      - ZZ_229 TG@peekfun
+      - US_765
+      - ZZ_231 TG@peekfun
+      - ZZ_220 TG@peekfun
+      - 14.29.124.168:25268
+      - US_208 TG@peekfun
+      - 香港 A03^
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -132,119 +208,197 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE_300
-      - DE_538
-      - DE_139 TG@peekfun
-      - DE_98 TG@peekfun
-      - US_212 TG@peekfun
-      - DE_138 TG@peekfun
       - US-164.92.69.193-01
       - US_174 TG@peekfun
-      - US_172 TG@peekfun
-      - DE_539
-      - JP 18
-      - RELAY-104.21.72.236-46
-      - DE_134 TG@peekfun
-      - DE_533
-      - AU_02 TG@peekfun
-      - DE_137 TG@peekfun
-      - US-104.243.30.252-52
-      - AU_03 TG@peekfun
-      - DE_140 TG@peekfun
-      - JP 137
-      - JP_163 TG@peekfun
-      - US_192 TG@peekfun
       - koyeb
+      - US-164.92.69.193-01 2
+      - US-164.92.69.193-01 3
+      - JP_163 TG@peekfun
+      - JP_163 TG@peekfun 2
+      - US_192 TG@peekfun
+      - US_192 TG@peekfun 2
+      - 213.183.53.177:9057
+      - US_192 TG@peekfun 3
+      - DE_98 TG@peekfun
+      - JP_163 TG@peekfun 3
+      - DE_109 TG@peekfun
+      - US_175 TG@peekfun
+      - HK_118 TG@peekfun
+      - DE_298 |17.74Mb
+      - ZZ_1882 |17.67Mb
+      - JP 18
+      - US_172 TG@peekfun
+      - 14.29.124.168:25222
+      - JP 18 2
+      - JP 18 3
+      - US_172 TG@peekfun 2
+      - DE_98 TG@peekfun 2
+      - ZZ_223 TG@peekfun
+      - 台湾家宽-广州微软
+      - ZZ_219 TG@peekfun
+      - ZZ_226 TG@peekfun
+      - ZZ_230 TG@peekfun
+      - ZZ_222 TG@peekfun
+      - ZZ_227 TG@peekfun
+      - ZZ_218 TG@peekfun
+      - ZZ_228 TG@peekfun
+      - ZZ_225 TG@peekfun
+      - ZZ_229 TG@peekfun
+      - US_765
+      - ZZ_231 TG@peekfun
+      - ZZ_220 TG@peekfun
+      - 14.29.124.168:25268
+      - US_208 TG@peekfun
+      - 香港 A03^
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 台湾家宽-广州微软
+      - 香港 A03^
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - DE_300
-      - DE_538
-      - DE_139 TG@peekfun
-      - DE_98 TG@peekfun
-      - US_212 TG@peekfun
-      - DE_138 TG@peekfun
       - US-164.92.69.193-01
       - US_174 TG@peekfun
-      - US_172 TG@peekfun
-      - DE_539
-      - JP 18
-      - RELAY-104.21.72.236-46
-      - DE_134 TG@peekfun
-      - DE_533
-      - AU_02 TG@peekfun
-      - DE_137 TG@peekfun
-      - US-104.243.30.252-52
-      - AU_03 TG@peekfun
-      - DE_140 TG@peekfun
-      - JP 137
-      - JP_163 TG@peekfun
-      - US_192 TG@peekfun
       - koyeb
+      - US-164.92.69.193-01 2
+      - US-164.92.69.193-01 3
+      - JP_163 TG@peekfun
+      - JP_163 TG@peekfun 2
+      - US_192 TG@peekfun
+      - US_192 TG@peekfun 2
+      - 213.183.53.177:9057
+      - US_192 TG@peekfun 3
+      - DE_98 TG@peekfun
+      - JP_163 TG@peekfun 3
+      - DE_109 TG@peekfun
+      - US_175 TG@peekfun
+      - HK_118 TG@peekfun
+      - DE_298 |17.74Mb
+      - ZZ_1882 |17.67Mb
+      - JP 18
+      - US_172 TG@peekfun
+      - 14.29.124.168:25222
+      - JP 18 2
+      - JP 18 3
+      - US_172 TG@peekfun 2
+      - DE_98 TG@peekfun 2
+      - ZZ_223 TG@peekfun
+      - 台湾家宽-广州微软
+      - ZZ_219 TG@peekfun
+      - ZZ_226 TG@peekfun
+      - ZZ_230 TG@peekfun
+      - ZZ_222 TG@peekfun
+      - ZZ_227 TG@peekfun
+      - ZZ_218 TG@peekfun
+      - ZZ_228 TG@peekfun
+      - ZZ_225 TG@peekfun
+      - ZZ_229 TG@peekfun
+      - US_765
+      - ZZ_231 TG@peekfun
+      - ZZ_220 TG@peekfun
+      - 14.29.124.168:25268
+      - US_208 TG@peekfun
+      - 香港 A03^
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - DE_300
-      - DE_538
-      - DE_139 TG@peekfun
-      - DE_98 TG@peekfun
-      - US_212 TG@peekfun
-      - DE_138 TG@peekfun
       - US-164.92.69.193-01
       - US_174 TG@peekfun
-      - US_172 TG@peekfun
-      - DE_539
-      - JP 18
-      - RELAY-104.21.72.236-46
-      - DE_134 TG@peekfun
-      - DE_533
-      - AU_02 TG@peekfun
-      - DE_137 TG@peekfun
-      - US-104.243.30.252-52
-      - AU_03 TG@peekfun
-      - DE_140 TG@peekfun
-      - JP 137
-      - JP_163 TG@peekfun
-      - US_192 TG@peekfun
       - koyeb
+      - US-164.92.69.193-01 2
+      - US-164.92.69.193-01 3
+      - JP_163 TG@peekfun
+      - JP_163 TG@peekfun 2
+      - US_192 TG@peekfun
+      - US_192 TG@peekfun 2
+      - 213.183.53.177:9057
+      - US_192 TG@peekfun 3
+      - DE_98 TG@peekfun
+      - JP_163 TG@peekfun 3
+      - DE_109 TG@peekfun
+      - US_175 TG@peekfun
+      - HK_118 TG@peekfun
+      - DE_298 |17.74Mb
+      - ZZ_1882 |17.67Mb
+      - JP 18
+      - US_172 TG@peekfun
+      - 14.29.124.168:25222
+      - JP 18 2
+      - JP 18 3
+      - US_172 TG@peekfun 2
+      - DE_98 TG@peekfun 2
+      - ZZ_223 TG@peekfun
+      - 台湾家宽-广州微软
+      - ZZ_219 TG@peekfun
+      - ZZ_226 TG@peekfun
+      - ZZ_230 TG@peekfun
+      - ZZ_222 TG@peekfun
+      - ZZ_227 TG@peekfun
+      - ZZ_218 TG@peekfun
+      - ZZ_228 TG@peekfun
+      - ZZ_225 TG@peekfun
+      - ZZ_229 TG@peekfun
+      - US_765
+      - ZZ_231 TG@peekfun
+      - ZZ_220 TG@peekfun
+      - 14.29.124.168:25268
+      - US_208 TG@peekfun
+      - 香港 A03^
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE_300
-      - DE_538
-      - DE_139 TG@peekfun
-      - DE_98 TG@peekfun
-      - US_212 TG@peekfun
-      - DE_138 TG@peekfun
       - US-164.92.69.193-01
       - US_174 TG@peekfun
-      - US_172 TG@peekfun
-      - DE_539
-      - JP 18
-      - RELAY-104.21.72.236-46
-      - DE_134 TG@peekfun
-      - DE_533
-      - AU_02 TG@peekfun
-      - DE_137 TG@peekfun
-      - US-104.243.30.252-52
-      - AU_03 TG@peekfun
-      - DE_140 TG@peekfun
-      - JP 137
-      - JP_163 TG@peekfun
-      - US_192 TG@peekfun
       - koyeb
+      - US-164.92.69.193-01 2
+      - US-164.92.69.193-01 3
+      - JP_163 TG@peekfun
+      - JP_163 TG@peekfun 2
+      - US_192 TG@peekfun
+      - US_192 TG@peekfun 2
+      - 213.183.53.177:9057
+      - US_192 TG@peekfun 3
+      - DE_98 TG@peekfun
+      - JP_163 TG@peekfun 3
+      - DE_109 TG@peekfun
+      - US_175 TG@peekfun
+      - HK_118 TG@peekfun
+      - DE_298 |17.74Mb
+      - ZZ_1882 |17.67Mb
+      - JP 18
+      - US_172 TG@peekfun
+      - 14.29.124.168:25222
+      - JP 18 2
+      - JP 18 3
+      - US_172 TG@peekfun 2
+      - DE_98 TG@peekfun 2
+      - ZZ_223 TG@peekfun
+      - 台湾家宽-广州微软
+      - ZZ_219 TG@peekfun
+      - ZZ_226 TG@peekfun
+      - ZZ_230 TG@peekfun
+      - ZZ_222 TG@peekfun
+      - ZZ_227 TG@peekfun
+      - ZZ_218 TG@peekfun
+      - ZZ_228 TG@peekfun
+      - ZZ_225 TG@peekfun
+      - ZZ_229 TG@peekfun
+      - US_765
+      - ZZ_231 TG@peekfun
+      - ZZ_220 TG@peekfun
+      - 14.29.124.168:25268
+      - US_208 TG@peekfun
+      - 香港 A03^
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -260,29 +414,48 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE_300
-      - DE_538
-      - DE_139 TG@peekfun
-      - DE_98 TG@peekfun
-      - US_212 TG@peekfun
-      - DE_138 TG@peekfun
       - US-164.92.69.193-01
       - US_174 TG@peekfun
-      - US_172 TG@peekfun
-      - DE_539
-      - JP 18
-      - RELAY-104.21.72.236-46
-      - DE_134 TG@peekfun
-      - DE_533
-      - AU_02 TG@peekfun
-      - DE_137 TG@peekfun
-      - US-104.243.30.252-52
-      - AU_03 TG@peekfun
-      - DE_140 TG@peekfun
-      - JP 137
-      - JP_163 TG@peekfun
-      - US_192 TG@peekfun
       - koyeb
+      - US-164.92.69.193-01 2
+      - US-164.92.69.193-01 3
+      - JP_163 TG@peekfun
+      - JP_163 TG@peekfun 2
+      - US_192 TG@peekfun
+      - US_192 TG@peekfun 2
+      - 213.183.53.177:9057
+      - US_192 TG@peekfun 3
+      - DE_98 TG@peekfun
+      - JP_163 TG@peekfun 3
+      - DE_109 TG@peekfun
+      - US_175 TG@peekfun
+      - HK_118 TG@peekfun
+      - DE_298 |17.74Mb
+      - ZZ_1882 |17.67Mb
+      - JP 18
+      - US_172 TG@peekfun
+      - 14.29.124.168:25222
+      - JP 18 2
+      - JP 18 3
+      - US_172 TG@peekfun 2
+      - DE_98 TG@peekfun 2
+      - ZZ_223 TG@peekfun
+      - 台湾家宽-广州微软
+      - ZZ_219 TG@peekfun
+      - ZZ_226 TG@peekfun
+      - ZZ_230 TG@peekfun
+      - ZZ_222 TG@peekfun
+      - ZZ_227 TG@peekfun
+      - ZZ_218 TG@peekfun
+      - ZZ_228 TG@peekfun
+      - ZZ_225 TG@peekfun
+      - ZZ_229 TG@peekfun
+      - US_765
+      - ZZ_231 TG@peekfun
+      - ZZ_220 TG@peekfun
+      - 14.29.124.168:25268
+      - US_208 TG@peekfun
+      - 香港 A03^
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
